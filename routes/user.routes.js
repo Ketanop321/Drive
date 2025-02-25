@@ -14,9 +14,4 @@ router.get('/login',(req,res)=>{
 })
 
 
-router.post('/register',(req,res)=>{
-    console.log(req.body)
-    res.send('user registered')
-})
-
 module.exports = router;
